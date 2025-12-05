@@ -154,15 +154,14 @@ body {font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;background-color:#
 .promo-badge {
   display: none !important;
 }
+/* ANIMACIÓN VOLADORA AL CARRITO */
 .fly-to-cart {
-    /* Estilos iniciales del elemento 'volador' */
-    position: fixed; /* Debe estar fijo para moverse sobre todo */
-    z-index: 9999; /* Asegura que esté por encima de todo */
-    width: 50px; /* Tamaño del icono que vuela */
-    height: 50px;
-    border-radius: 50%; /* Lo hacemos redondo */
-    background-color: var(--primary-color); /* Fondo del color principal */
-    pointer-events: none; /* Ignora clics */
-    opacity: 0.8;
-    transition: transform 0.8s ease-in, opacity 0.8s ease-in; /* La animación */
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4caf50;
+    z-index: 9999;
+    transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+    pointer-events: none;
 }
