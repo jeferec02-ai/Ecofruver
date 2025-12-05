@@ -15,7 +15,7 @@ const products = [
   { id: 13, name: "Papaya", price: 6500, description: "Papaya dulce", image: "public/papaya.jpg", category: "Fruta", unit: "unidad", stock: 6, promo: true },
   { id: 14, name: "Limón", price: 1500, description: "Limón fresco", image: "public/limon.jpeg", category: "Fruta", unit: "libra", stock: 10, promo: false },
   { id: 15, name: "Lechuga", price: 2000, description: "Lechuga crujiente", image: "public/lechuga.jpeg", category: "Verdura", unit: "unidad", stock: 9, promo: false },
-  { id: 16, name: "Zanahoria", price: 1800, description: "Zanahoria fresca", image: "public/zanahoria.jpeg", category: "Verdura", unit: "libra", stock: 11, promo: false },
+  { id: 16, name: "Zanahoria", price: 1800, description: "Zanahoria fresca", image: "public/Zanahoria.jpeg", category: "Verdura", unit: "libra", stock: 11, promo: false },
   { id: 17, name: "Cebolla cabezona", price: 2200, description: "Cebolla fresca", image: "public/cebolla.jpeg", category: "Verdura", unit: "libra", stock: 10, promo: false },
   { id: 18, name: "Papa criolla", price: 2500, description: "Papa criolla amarilla", image: "public/papa_criolla.webp", category: "Verdura", unit: "libra", stock: 12, promo: true },
   { id: 19, name: "Brócoli", price: 3800, description: "Brócoli fresco", image: "public/brocoli.jpeg", category: "Verdura", unit: "unidad", stock: 5, promo: false },
